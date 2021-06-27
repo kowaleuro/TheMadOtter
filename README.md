@@ -29,6 +29,7 @@ List the ready features here:
 - time-limited powerups
 - special room "shop", where you can buy new weapons
 - static objects destruction with bombs and explosions
+- map and interface
 
 
 ## Screenshots
