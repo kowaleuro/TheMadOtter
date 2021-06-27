@@ -1,5 +1,5 @@
 # The Mad Otter
-> Rougelike type game with shooting elements
+> In order to escape from the dungeon you as a "Mad Otter" must defeat various enemies, avoid traps and look for new weapons and powerups.
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -11,7 +11,11 @@
 
 ## General Information
 
-In order to escape from the dungeon you as a "Mad Otter" must defeat various enemies, avoid traps and look for new weapons and powerups.
+"The Mad Otter" is a rougelike type game with shooting elements created in order to:
+- understand JavaFX better and to understand it's structure
+- experiment with mechanics based on RNG (map generation)
+- learn simple animations
+
 
 
 ## Technologies Used
