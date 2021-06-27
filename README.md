@@ -18,6 +18,7 @@ Project was created in cooperation with Dawid Kwapisz (https://github.com/dkwapi
 
 ## Technologies Used
 - JavaFx - version 15.0.1
+- FXML
 
 
 ## Features
