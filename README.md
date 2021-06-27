@@ -22,8 +22,8 @@ Project was created in cooperation with Dawid Kwapisz (https://github.com/dkwapi
 
 ## Features
 List the ready features here:
-- 15 weapons like shotgun, poison daggers
-- various enemies (following player, creating copies of them themselvses when destroyed and more)
+- 15 weapons like shotgun, poison daggers and many more
+- various enemies (following the player, creating copies of them themselvses when destroyed and more)
 - randomly generated map
 - time-limited powerups
 - static objects destruction with bombs and explosions
