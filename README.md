@@ -27,6 +27,7 @@ List the ready features here:
 - various enemies (following the player, creating copies of them themselvses when destroyed and more)
 - randomly generated map
 - time-limited powerups
+- special room "shop", where you can buy new weapons
 - static objects destruction with bombs and explosions
 
 
