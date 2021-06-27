@@ -13,6 +13,7 @@
 
 In order to escape from the dungeon you as a "Mad Otter" must defeat various enemies, avoid traps and look for new weapons and powerups.
 
+Game was created as a university project.
 
 ## Technologies Used
 - JavaFx - version 15.0.1
@@ -49,6 +50,6 @@ Windows: --module-path "..\TheGame\javafx-sdk-15.0.1\lib" --add-modules javafx.c
 
 
 ## Acknowledgements
-- Project was created in cooperation with Dawid Kwapisz (https://github.com/dkwapisz) as a university project.
+- Project was created in cooperation with Dawid Kwapisz (https://github.com/dkwapisz).
 - This project was inspired by "The Binding of Isaac"
 - Movenemnt handling was based on https://github.com/ashish2199/Aidos
