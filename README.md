@@ -13,8 +13,6 @@
 
 In order to escape from the dungeon you as a "Mad Otter" must defeat various enemies, avoid traps and look for new weapons and powerups.
 
-Project was created in cooperation with Dawid Kwapisz (https://github.com/dkwapisz) as a university project.
-
 
 ## Technologies Used
 - JavaFx - version 15.0.1
@@ -22,13 +20,16 @@ Project was created in cooperation with Dawid Kwapisz (https://github.com/dkwapi
 
 
 ## Features
-List the ready features here:
 - 15 weapons like shotgun, poison daggers and many more
 - various enemies (following the player, creating copies of them themselvses when destroyed and more)
-- randomly generated map
 - time-limited powerups
+- randomly generated map
+- 4 floors
+- every floor has 25 rooms
+- every room is full of various blocks (bush, spikes, walls, exploding barells, etc) 
 - special room "shop", where you can buy new weapons
 - static objects destruction with bombs and explosions
+- hiding in bush
 - map and interface
 
 
@@ -48,6 +49,6 @@ Windows: --module-path "..\TheGame\javafx-sdk-15.0.1\lib" --add-modules javafx.c
 
 
 ## Acknowledgements
-Give credit here.
+- Project was created in cooperation with Dawid Kwapisz (https://github.com/dkwapisz) as a university project.
 - This project was inspired by "The Binding of Isaac"
 - Movenemnt handling was based on https://github.com/ashish2199/Aidos
