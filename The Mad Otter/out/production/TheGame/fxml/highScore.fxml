@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" stylesheets="@stylesheet/highScore.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.controller.HighScoreController">
+   <children>
+      <Label fx:id="scoreTitle" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="14.0" prefHeight="150.0" prefWidth="500.0" text="High Score" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="110.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="168.0" prefHeight="50.0" prefWidth="50.0" text="#" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="168.0" prefHeight="50.0" prefWidth="200.0" text="Nickname" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="168.0" prefHeight="50.0" prefWidth="200.0" text="Points" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="168.0" prefHeight="50.0" prefWidth="50.0" text="F" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="218.0" prefHeight="50.0" prefWidth="50.0" text="1" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick1" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="218.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points1" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="218.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor1" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="218.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="268.0" prefHeight="50.0" prefWidth="50.0" text="2" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="318.0" prefHeight="50.0" prefWidth="50.0" text="3" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="368.0" prefHeight="50.0" prefWidth="50.0" text="4" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="418.0" prefHeight="50.0" prefWidth="50.0" text="5" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="468.0" prefHeight="50.0" prefWidth="50.0" text="6" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="518.0" prefHeight="50.0" prefWidth="50.0" text="7" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="568.0" prefHeight="50.0" prefWidth="50.0" text="8" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="618.0" prefHeight="50.0" prefWidth="50.0" text="9" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="668.0" prefHeight="50.0" prefWidth="50.0" text="10" textAlignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick2" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="268.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick3" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="318.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick4" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="368.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick5" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="418.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick6" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="468.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick7" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="518.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick8" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="568.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick9" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="618.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="nick10" alignment="CENTER" contentDisplay="CENTER" layoutX="300.0" layoutY="668.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points2" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="268.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points3" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="318.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points4" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="368.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points5" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="418.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points6" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="468.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points7" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="518.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points8" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="568.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points9" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="618.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="points10" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="668.0" prefHeight="50.0" prefWidth="200.0" text="----------" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor2" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="268.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor3" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="318.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor4" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="368.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor5" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="418.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor6" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="468.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor7" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="518.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor8" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="568.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor9" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="618.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="floor10" alignment="CENTER" contentDisplay="CENTER" layoutX="700.0" layoutY="668.0" prefHeight="50.0" prefWidth="50.0" text="--" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="250.0" layoutY="217.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="297.0" layoutY="168.0" orientation="VERTICAL" prefHeight="550.0" prefWidth="0.0" />
+      <Separator layoutX="697.0" layoutY="168.0" orientation="VERTICAL" prefHeight="550.0" prefWidth="0.0" />
+      <Separator layoutX="497.0" layoutY="168.0" orientation="VERTICAL" prefHeight="550.0" prefWidth="0.0" />
+      <Separator layoutX="250.0" layoutY="267.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="317.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="367.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="417.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="468.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="517.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="567.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="617.0" prefHeight="0.0" prefWidth="500.0" />
+      <Separator layoutX="250.0" layoutY="667.0" prefHeight="0.0" prefWidth="500.0" />
+      <Button fx:id="cancelButton" cancelButton="true" layoutX="275.0" layoutY="730.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Back to menu" />
+      <Button fx:id="clearButton" layoutX="525.0" layoutY="730.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Clear Scoreboard" />
+   </children>
+</AnchorPane>

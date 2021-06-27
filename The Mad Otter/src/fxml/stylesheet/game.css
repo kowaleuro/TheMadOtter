@@ -1,0 +1,4 @@
+.root {
+    -fx-background-image : url('/graphics/map/floor1/board1.png');
+    -fx-background-size: 100% 100%;
+}
