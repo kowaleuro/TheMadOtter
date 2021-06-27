@@ -22,7 +22,7 @@ In order to escape from the dungeon you as a "Mad Otter" must defeat various ene
 ## Features
 - 15 weapons like shotgun, poison daggers and many more
 - various enemies (following the player, creating copies of them themselvses when destroyed and more)
-- time-limited powerups
+- time-limited powerups and animations
 - randomly generated map
 - 4 floors
 - every floor has 25 rooms
