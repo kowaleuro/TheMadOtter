@@ -13,7 +13,6 @@
 
 In order to escape from the dungeon you as a "Mad Otter" must defeat various enemies, avoid traps and look for new weapons and powerups.
 
-Game was created as a project for university classes.
 
 ## Technologies Used
 - JavaFx - version 15.0.1
